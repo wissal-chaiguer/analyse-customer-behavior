@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+@import 'css/additional-styles/custom-fonts.css';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'css/additional-styles/utility-patterns.css';
+@import 'css/additional-styles/range-slider.css';
+@import 'css/additional-styles/toggle-switch.css';
+@import 'css/additional-styles/theme.css';
+
+@import 'tailwindcss/utilities';
+
+/* Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive */
+@layer utilities {
+    .rtl {
+        direction: rtl;
+    }
+}
+
+
+
+.swiper-container {
+    transform: none;
+  }
+body {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+    overflow-x: hidden;
+}
+
+#root{
+  padding: 0px;
+}
+
+/* Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.floating {
+  transition: transform 5s ease-in-out; 
+  animation: floatingAnimation 5s infinite; 
+}
+  
+  @keyframes floatingAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .hero-content {
+    display: flex;            
+    justify-content: space-between; 
+    align-items: center;       
+  }
