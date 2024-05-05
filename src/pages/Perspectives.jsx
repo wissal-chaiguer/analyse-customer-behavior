@@ -10,6 +10,10 @@ import DataProcessing from "../assets/data-processing.svg";
 import AppleWatches from "../assets/apple_watches.png";
 import AppleWatches1 from "../assets/apple-watches1.jpg";
 import AppleWatch1 from "../assets/apple-watch1.jpeg";
+import perspectives from  '../assets/Perspectives.png'
+import series1 from  '../assets/series1.jpg'
+import series4 from  '../assets/series4.jpg'
+import ultra from  '../assets/ultra.jpeg'
 const Perspectives = () => {
     window.scrollTo(0, 0);
     return (
@@ -26,7 +30,7 @@ const Perspectives = () => {
                                      </p>
                         </div>
                         <div className='order-2 md:order-1 col-span-1 my-auto mx-auto'>
-                            <img src="src\assets\Perspectives.png" className='w-[20rem] rounded-xl' width={900}/>
+                            <img src={perspectives} className='w-[20rem] rounded-xl' width={900}/>
                         </div>
                     </div>
                     <div className='flex flex-col md:flex-row gap-[5rem] items-center px-8 py-0 rounded-tr-[100px]'>
@@ -75,17 +79,17 @@ const Perspectives = () => {
                         </div>
                         <div className='flex flex-col md:flex-row gap-[5rem] mx-auto items-center'>
                         <div className='w-[15rem] h-auto bg-white shadow rounded-xl p-4 flex flex-col items-start border bg-neutral-300 '>
-                            <img src="src\assets\series1.jpg"  className='w-full h-[16rem] object-cover rounded-xl' />
+                            <img src={series1}  className='w-full h-[16rem] object-cover rounded-xl' />
                             <h2 className='text-xl font-bold mt-4'>Apple Watch Series 1 </h2>
                             <p className='text-sm text-gray-500'>2015</p>
                         </div>
                         <div className='w-[15rem] h-auto bg-white shadow rounded-xl p-4 flex flex-col items-start border bg-neutral-300 '>
-                            <img src="src\assets\series4.jpg" className='w-full h-[16rem] object-cover rounded-xl' />
+                            <img src={series4} className='w-full h-[16rem] object-cover rounded-xl' />
                             <h2 className='text-xl font-bold mt-4'>Apple Watch Series 4</h2>
                             <p className='text-sm text-gray-500'>2018</p>
                         </div>
                         <div className='w-[15rem] h-auto bg-white shadow rounded-xl p-4 flex flex-col items-start border bg-neutral-300 '>
-                            <img src="src\assets\ultra.jpeg" className='w-full h-[16rem] object-cover rounded-xl' />
+                            <img src={ultra} className='w-full h-[16rem] object-cover rounded-xl' />
                             <h2 className='text-xl font-bold mt-4'>Apple Watch Ultra</h2>
                             <p className='text-sm text-gray-500'>2022</p>
                         </div>

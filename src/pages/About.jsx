@@ -3,6 +3,12 @@ import Banner from "../components/Banner";
 import SectionLayout from "../components/structural/SectionLayout";
 import InternalSectionLayout from "../components/structural/InternalSectionLayout";
 import { Link } from "react-router-dom";
+import team from  '../assets/team.png'
+import wissal from  '../assets/Wissal.jpg'
+import hiba from  '../assets/Hiba.jpeg'
+import oumaima from  '../assets/Oumaima.jpeg'
+import nafissa from  '../assets/Nafissa.jpeg'
+import salma from  '../assets/salma.jpeg'
 
 const About = () => {
   // scroll back to top
@@ -31,7 +37,7 @@ const About = () => {
             </div>
             <div className="order-2 md:order-1 col-span-1 mx-auto my-auto">
               <img
-                src="src\assets\team.png"
+                src={team}
                 className="w-[28rem]"
                 width={900}
               />
@@ -58,7 +64,7 @@ const About = () => {
             </div>
             <div className="order-2 md:order-1 col-span-1">
               <img
-                src="src\assets\Wissal-photo.jpg"
+                src={wissal}
                 className="w-[20rem] rounded-full"
                 width={900}
               />
@@ -78,7 +84,7 @@ const About = () => {
             </div>
             <div className="order-1 md:order-2 col-span-1">
               <img
-                src="src\assets\Hiba.jpeg"
+                src={hiba}
                 className="w-[20rem] rounded-full"
                 width={900}
               />
@@ -99,7 +105,7 @@ const About = () => {
             </div>
             <div className="order-2 md:order-1 col-span-1">
               <img
-                src="src\assets\salma.jpeg"
+                src={salma}
                 className="w-[20rem] rounded-full"
                 width={900}
               />
@@ -119,7 +125,7 @@ const About = () => {
             </div>
             <div className="order-1 md:order-2 col-span-1">
               <img
-                src="src\assets\Nafissa.jpeg"
+                src={nafissa}
                 className="w-[20rem] rounded-full"
                 width={900}
               />
@@ -140,7 +146,7 @@ const About = () => {
             </div>
             <div className="order-2 md:order-1 col-span-1">
               <img
-                src="src\assets\Oumaima.jpeg" alt='CEO of Karens'
+                src={oumaima} alt='CEO of Karens'
                 className="w-[20rem] rounded-full"
                 width={900}
               />

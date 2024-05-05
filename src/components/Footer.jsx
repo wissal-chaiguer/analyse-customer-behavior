@@ -43,7 +43,7 @@ export default function Footer() {
               </li>
               
               <li>
-              <Link to="/histoire">
+              <Link to="/perspective">
                 <a className="text-neutral-900 hover:text-blue-700 transition duration-150 ease-in-out" to="#0">
                 Perspectives
                 </a>

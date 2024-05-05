@@ -23,7 +23,7 @@ function App() {
           <Route path="/resultat" element={<Resultat />} />
           <Route path="/studyreason" element={<StudyReason />} />
           <Route path="/methodology" element={<Methodology />} /> 
-          <Route path="/histoire" element={<Histoire />} />
+          <Route path="/perspective" element={<Histoire />} />
         </Routes>
       </Layout>
     </Router>

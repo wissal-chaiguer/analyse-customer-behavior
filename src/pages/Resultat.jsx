@@ -9,6 +9,7 @@ import { WatchSatificationChart } from "../components/Chart4";
 import { PurchaseReasonChart } from "../components/Chart5";
 import { FunctionalityUsedChart } from "../components/Chart6";
 import { RecommendChart } from "../components/Chart7";
+import stats from  '../assets/stats.png'
 
 const Resultat = () => {
   window.scrollTo(0, 0);
@@ -35,7 +36,7 @@ const Resultat = () => {
             </div>
             <div className="order-2 md:order-1 col-span-1 mx-auto">
               <img
-                src="src\assets\stats.png"
+                src={stats}
                 className="w-[50rem]"
                 width={900}
               />

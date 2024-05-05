@@ -29,7 +29,7 @@ const Header = () => {
                     <Link to="/resultat">
                         <li className="text-lg font-medium text-neutral-900 hover:bg-neutral-900 hover:text-white rounded-full px-6 py-3 ease-in-out duration-300">Résultats</li>
                     </Link>
-                    <Link to="/histoire">
+                    <Link to="/perspective">
                         <li className="text-lg font-medium text-neutral-900 hover:bg-neutral-900 hover:text-white rounded-full px-6 py-3 ease-in-out duration-300">Perspectives</li>
                     </Link>
                     <Link to="/studyreason">
@@ -49,7 +49,7 @@ const Header = () => {
                     <Link to="/resultat" onClick={toggleMenu}>
                         <li className="text-2xl font-medium text-white hover:bg-white hover:text-neutral-900 rounded-sm py-4 px-2 ease-in-out duration-300">Résultats</li>
                     </Link>
-                    <Link to="/histoire" onClick={toggleMenu}>
+                    <Link to="/perspective" onClick={toggleMenu}>
                         <li className="text-2xl font-medium text-white hover:bg-white hover:text-neutral-900 rounded-sm py-4 px-2 ease-in-out duration-300">Perspectives</li>
                     </Link>
                     <Link to="/studyreason" onClick={toggleMenu}>
