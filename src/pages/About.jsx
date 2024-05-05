@@ -136,8 +136,8 @@ const About = () => {
               <p className="text-lg">Chef d'équipe</p>
               <h2 className="h2 font-bold">Oumaima Bendahan</h2>
               <p className="text-xl py-4">
-              Oumaima Bendahan a assuré la gestion et l'avancement de ce projet complexe. Ses capacités organisationnelles ont permis aux tâches de respecter les délais établis et de répondre aux normes de qualité requises. Responsable de la planification et de l'ordonnancement, elle a joué un rôle clé dans la réalisation du projet dans les temps impartis. Oumaima Bendahan a également rédigé le Rapport de fonctionnement ainsi qu'une présentation PowerPoint résumant les résultats du projet.{" "}
-              </p>
+              En tant que chef d'équipe, elle a joué un rôle essentiel dans la réussite du projet en supervisant l'ensemble du processus. Elle a veillé au respect des délais et à la progression du projet dans la bonne direction. En parallèle, elle a distribué efficacement les rôles au sein de l'équipe, garantissant que chaque membre contribue de manière optimale. De plus, elle a coordonné avec les parties prenantes externes pour assurer une collaboration harmonieuse. Son engagement ne s'est pas limité à la supervision, car elle a également été directement impliquée dans la réalisation de tous les livrables. Enfin, elle a pris en charge la préparation de la présentation finale et du rapport de fonctionnement, soulignant ainsi son engagement du début à la fin du projet.
+                          </p>
               <div className="flex flex-col items-end">
                 <button className="md:col-span-2 bg-neutral-900 px-8 py-4 text-white hover:bg-white hover:text-neutral-900 ease-in-out duration-300 rounded-md text-xl mb-4 md:mb-0 md:mr-4">
                 <a href="https://www.linkedin.com/in/oumaima-bendahan-064103202/" target="_blank">Contacter</a> 
